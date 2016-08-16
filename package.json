@@ -1,0 +1,23 @@
+{
+  "name": "super_calc",
+  "version": "1.0.0",
+  "description": "Unit tested angular front end calculator.",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "author": "Brian Wynn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "mongoose": "latest",
+    "morgan": "latest"  
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  }
+}
